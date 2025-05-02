@@ -1,0 +1,40 @@
+.resume-section {
+  background-color: var(--clr-bg-alt);
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow);
+  text-align: center;
+  color: white;
+}
+
+.resume-section h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.resume-section p {
+  font-size: 1.1rem;
+}
+
+.resume-button {
+  display: inline-block;
+  padding: 0.8em 1.6em;
+  font-weight: 500;
+  color: white;
+  border-radius: 50px;
+  background-color: rgb(85, 86, 86);
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .resume-section h2 {
+    font-size: 2rem;
+  }
+
+  .resume-section p {
+    font-size: 1rem;
+  }
+
+  .resume-button {
+    padding: 0.7em 1.4em;
+    font-size: 0.95rem;
+  }
+}

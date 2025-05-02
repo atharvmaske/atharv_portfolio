@@ -1,0 +1,38 @@
+
+:root {
+  --primary-bg: #23283e;
+  --secondary-bg: #2e344e;
+  --accent-color: #007bff;
+  --light-text: #f0f0f0;
+  --muted-text: #bbb;
+  --card-radius: 12px;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-bg);
+  color: var(--light-text);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+main {
+  padding: 3rem 1.5rem;
+}
+
+section {
+  padding: 3rem;
+  background-color: var(--secondary-bg);
+  border-radius: var(--card-radius);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--light-text);
+}

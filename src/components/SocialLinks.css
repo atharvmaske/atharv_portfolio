@@ -1,0 +1,35 @@
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 3em;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  display: inline-block;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.social-links a:hover {
+  transform: translateY(-4px);
+  filter: brightness(1.2);
+}
+
+.social-links img {
+  width: 36px;
+  height: 36px;
+  filter: brightness(0.8);
+}
+
+@media (max-width: 600px) {
+  .social-links {
+    gap: 1.2em;
+    margin-top: 2em;
+  }
+
+  .social-links img {
+    width: 32px;
+    height: 32px;
+  }
+}
