@@ -5,4 +5,4 @@ Welcome to my personal portfolio website built using **React.js** and deployed w
 ## 🔗 Live Site
 
 Check it out here:  
-👉 [Demo Here]([https://portfolioatharv-nine.vercel.app/](https://atharv-portfolio-bay.vercel.app/))
+👉 [Demo Here](https://atharv-portfolio-bay.vercel.app/)
