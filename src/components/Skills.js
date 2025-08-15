@@ -12,9 +12,12 @@ import githubIcon from "../assets/skills/icons8-github.svg";
 import firebaseIcon from "../assets/skills/icons8-firebase.svg";
 import mysqlIcon from "../assets/skills/icons8-mysql-logo.svg";
 import pythonIcon from "../assets/skills/icons8-python.svg";
+import javaIcon from "../assets/skills/java.svg";
+
 
 function Skills() {
   const skills = [
+    { name: "JAVA", icon: javaIcon },
     { name: "HTML", icon: htmlIcon },
     { name: "CSS", icon: cssIcon },
     { name: "JavaScript", icon: jsIcon },
@@ -25,6 +28,7 @@ function Skills() {
     { name: "Firebase", icon: firebaseIcon },
     { name: "MySQL", icon: mysqlIcon },
     { name: "Python", icon: pythonIcon },
+
   ];
 
   return (
